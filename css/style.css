@@ -10,6 +10,7 @@
 
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
 }
 
 .btn{
@@ -79,4 +80,34 @@ body{
     line-height: 60px;
     color: #0E0E0E;
     padding: 20px 0px;
+}
+.pillers_of_bangladesh{
+    
+}
+.pillers_of_bangladesh_content{
+    padding: 50px 50px;
+}
+.pillers_of_bangladesh_card{
+    display: flex;
+    margin: 0 30px;
+    
+}
+.pillers_of_bangladesh_card_wrapper{
+    background-color: #ffffff;
+    width: 300px;
+    height: 245px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    align-content: center;
+
+       
+}
+.pillers_of_bangladesh_card_wrapper img{
+    padding-bottom: 15px;
+}
+.pillers_of_bangladesh_card_wrapper h3{
+    padding-bottom: 15px;
 }
