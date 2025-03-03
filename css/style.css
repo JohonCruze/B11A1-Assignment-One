@@ -64,7 +64,7 @@ body{
     justify-content: space-between;
     margin: 50px 50px;
     background-color:  rgb(198, 228, 214);
-    padding: 50px 50px;
+    padding: 80px 50px;
     border-radius: 24px;
 }
 
@@ -81,33 +81,145 @@ body{
     color: #0E0E0E;
     padding: 20px 0px;
 }
-.pillers_of_bangladesh{
-    
-}
+
 .pillers_of_bangladesh_content{
     padding: 50px 50px;
 }
 .pillers_of_bangladesh_card{
     display: flex;
     margin: 0 30px;
+    padding-bottom: 80px;
+    justify-content: space-between;
     
 }
 .pillers_of_bangladesh_card_wrapper{
     background-color: #ffffff;
-    width: 300px;
-    height: 245px;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #dddddd;
     border-radius: 10px;
     margin-left: 15px;
     margin-right: 10px;
-    align-content: center;
-
-       
+    align-content: center;     
 }
 .pillers_of_bangladesh_card_wrapper img{
     padding-bottom: 15px;
 }
 .pillers_of_bangladesh_card_wrapper h3{
     padding-bottom: 15px;
+}
+
+.vision_content{
+    padding: 50px 50px;
+}
+.vision_content p{
+    padding-top: 20px;
+}
+.vision_card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding-bottom: 80px;
+    
+}
+.vision_card_wrapper{
+    width: 400px;
+    padding: 50px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    align-content: center;     
+}
+.card_1{
+    background-color: #d5e2f5;
+}
+.card_2{
+    background-color: #C6E4D6;
+}
+.card_3{
+    background-color: #F7EBCF;
+}
+.vision_card_wrapper img{
+    padding-bottom: 15px;
+}
+.vision_card_wrapper h3{
+    padding-bottom: 20px;
+}
+.vision_card_wrapper p{
+    padding-bottom: 30px;
+}
+.vision_card_wrapper a{
+    padding: 12px 30px;
+    background-color:#006A50 ;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    border: 1PX solid #006A50;
+    border-radius: 8PX;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.quateciton-section{
+    margin: 0 40px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    margin-bottom: 80px;
+}
+.quateciton-section p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.quateciton-section h6{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.quateciton-section span{
+    font-size: 14px;
+}
+
+.opinion-section{
+    margin: 0 40px;
+    margin-bottom: 80px;
+}
+.opinion-box, table{
+    width: 100% !important;
+}
+.opinion-section .opinion-box, table, td, th{
+        text-align: left;
+        padding: 15px;
+        
+}
+.opinion-section .opinion-box,table,td, tr{
+        border: 1px solid #dddddd;
+        border-collapse: collapse;
+        padding: 20px;
+}
+tr:nth-child(1){
+    background-color: #c5e4d5;
+}
+
+.question-box {
+    background-color: #ffffff;
+    padding: 50px 30px;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+.opinion-section .opinion-box,span.bg {
+    background-color: #c5e4d5;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    margin:0;
+}
+.opinion-section .opinion-box,span.bg img{
+        width: 20px;
+        height: auto;
+        vertical-align: middle;
 }
